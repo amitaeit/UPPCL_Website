@@ -1,0 +1,32 @@
+
+
+.container{
+    font: bold italic;
+    width: 100%;
+}
+.container input{
+    width: 95%;
+}
+
+#fname{
+    float: left;
+    width: 50%;
+}
+#mname{
+    float: left;
+    width: 20%;
+}
+#lname{
+    float: left;
+    width: 30%;
+}
+
+
+
+.containerheader{
+    background-color: aqua;
+}
+.text_uppcl{
+    font-family: sans-serif;
+    font-size: 21px;
+}
