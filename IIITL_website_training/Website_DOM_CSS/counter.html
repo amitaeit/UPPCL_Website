@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+            }
+            .cnt_val{
+                font-size: 50px;
+                font-family: cursive;
+                
+            }
+            #increment_val, #decrement_val{
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 20px;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Counter</h2>
+        <div><label class="cnt_val">0</label></div>
+        <div><button type = "button" onclick ="increment()" id="increment_val">+</button>
+            <button type = "button" onclick ="decrement()" id="decrement_val">-</button></div>
+            <script src="counter.js"></script>
+    </body>
+</html>
