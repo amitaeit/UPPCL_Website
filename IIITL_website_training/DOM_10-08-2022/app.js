@@ -15,7 +15,7 @@ expenseContainer.appendChild(tableRow);
 function calculatebill(){
     const numNode=document.querySelectorAll(".costField");
     let totcost=0;
-    console.log(numNode);
+    // console.log(numNode);
     numNode.forEach(element => {
         totcost=totcost + parseInt(element.value);
         
