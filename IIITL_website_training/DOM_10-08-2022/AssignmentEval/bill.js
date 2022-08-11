@@ -22,6 +22,6 @@ function calculatebill() {
     document.querySelector(".billAmount").innerHTML = totalconsumption +" KWH";
 }
 
-function deleteAppliance(this){
-    console.log(this);
+function deleteAppliance(el){
+    el.parentNode.parentNode.remove();
 }
